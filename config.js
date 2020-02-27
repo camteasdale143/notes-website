@@ -3,11 +3,11 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Course Notes',
+  subtitle: 'Some nice notes for Carleton courses',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 8,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
@@ -25,9 +25,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Cameron Teasdale',
+    photo: '/cam.jpg',
+    bio: 'Just a tech boy from a small town :D',
     contacts: {
       email: '',
       facebook: '#',
