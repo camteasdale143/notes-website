@@ -25,9 +25,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Cameron Teasdale',
-    photo: '/cam.jpg',
-    bio: 'Just a tech boy from a small town :D',
+    name: 'Alex Djordjevic',
+    photo: '/ale.png',
+    bio: 'A singular happy Serb 😙',
     contacts: {
       email: '',
       facebook: '#',

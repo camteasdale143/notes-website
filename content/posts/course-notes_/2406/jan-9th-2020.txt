@@ -1,0 +1,74 @@
+January 9th, 2020
+
+ __________________________________
+| Fundamentals of Web Applications |
+ ----------------------------------
+
+Javascript is one of the core technologies of the web
+Allows for dynamic web pages
+Also now used for server-side programming
+both client- and server-side will be done in this course
+
+JS lets you do things that don't make sense
+easy to miss mistakes
+
+"just because you can doesn't mean you should"
+
+JS does not have general IO support for network, storage...
+
+> console.log("Hello World");
+
+Node.js & Chrome will be used in this course
+
+> $ node some_file.js <-- runs the file from the terminal
+
+<script> [JS stuff] </script>
+or
+<script src="filename.js"></script>
+in your HTML file
+
+Putting it at the bottom is good because the HTML will load first and the user will see something while the JS is loading
+Top means blank page while JS loads
+
+Not talking about user input because we don't get a lot of it, besides stuff being clicked
+
+Keywords for making variables:
+-> let
+-> const (constants)
+-> var (don't use this one)
+
+scoping rules: everything is defined only within its block
+
+var has no block scope, only function scope. DON'T USE IT
+
+Hoisting: JS moves some declarations to the top of their scope, which means you can use a variable before it's defined
+
+x=5;
+var x;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

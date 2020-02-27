@@ -1,0 +1,94 @@
+January 14th, 2020
+COMP2406 Fundamentals of Web Applications
+
+----------- announcement--------------------------------------------
+Workshops every monday by Bowen Xue (recreating carleton central)
+4:10 - 5:30pm Canal Building 2400
+First workshop git, html, css (useful for assignment 1 and tutorial)
+--------------------------------------------------------------------
+
+> arr.filter(word => word.length > 5));
+  ^ filters stuff from array that's longer than 5 characters
+
+Get comfortable with passing functions into functions.
+.map() = takes each item in an array, does something to it, and then adds it into a resulting array
+
+> arr.map(x => x*x)
+  ^ squares every item in an array and puts it into a new array
+
+.reduce() = takes an array and executes a reducer function on each value, producing a single output.
+> arr.reduce((accumulator, currentValue) => {return accumulator + currentValue})
+  ^ returns the sum of values in an array
+
+> arr.filter(x => x >= 2 && x < 5).map(x => x * x).reduce([same accumulator as above])
+  ^ takes an array, gets the stuff between 2 and 5 (including 2), squares those values, and then adds up the result.
+
+note: these functions make new arrays.
+
+synchronous vs asynchronous
+
+sync. - what we're used to, functions happen one after another.
+
+async. - next step might start before the current step finishes.
+
+JS is single threaded (only one instruction can be executed at once, technically)
+but async. still happens.
+
+
+callback function - executed when something is done.
+
+setTimeout() takes a function, and an integer(amount of time in ms)
+
+setTimeout(f, x) "after x ms, execute function f."
+
+funcA()
+
+setTimeout(funcC, n)
+
+funcB()
+
+^ A, B, then C.
+5 time periods are not exact
+
+Scope is defined as the code is written, not when it is run.
+Inner functions can access variables from outer functions even if they have already been executed.
+
+Don't memorize CSS/HTML stuff; there's too many
+
+Although JS can be used for both server and client side, course will focus on client side.
+Also, lots of event-based programming.
+
+DOM: Document Object Model
+A W3C standard that provides an  interface to dynamically modify a page displayed in a browser.
+The DOM uses a tree structure.
+
+> let div = document.getElementById("maincontent");
+> div.innerHTML = "Hello World.";
+
+W3School has lots of good resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
