@@ -24,12 +24,34 @@ module.exports = {
       path: '/pages/contacts'
     }
   ],
-  author: {
+  author1: {
     name: 'Alex Djordjevic',
     photo: '/ale.png',
     bio: 'A singular happy Serb 😙',
     contacts: {
       email: '',
+      facebook: '#',
+      telegram: '#',
+      twitter: '#',
+      github: '#',
+      rss: '',
+      vkontakte: '',
+      linkedin: '#',
+      instagram: '#',
+      line: '',
+      gitlab: '',
+      weibo: '',
+      codepen: '',
+      youtube: '',
+      soundcloud: '',
+    }
+  },
+  author2: {
+    name: 'Cameron Teasdale',
+    photo: '/cam.jpg',
+    bio: 'Just a beep boop boy',
+    contacts: {
+      email: 'cameronteasdale143@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',

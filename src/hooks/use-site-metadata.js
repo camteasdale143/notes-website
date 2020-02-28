@@ -7,7 +7,29 @@ const useSiteMetadata = () => {
       query SiteMetaData {
         site {
           siteMetadata {
-            author {
+            author1 {
+              name
+              bio
+              photo
+              contacts {
+                facebook
+                linkedin
+                github
+                twitter
+                telegram
+                instagram
+                email
+                rss
+                vkontakte
+                line
+                gitlab
+                weibo
+                codepen
+                youtube
+                soundcloud
+              }
+            }
+            author2 {
               name
               bio
               photo

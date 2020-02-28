@@ -19,8 +19,8 @@ const Layout = ({
   description,
   socialImage
 }: Props) => {
-  const { author, url } = useSiteMetadata();
-  const metaImage = socialImage != null ? socialImage : author.photo;
+  const { author1, url } = useSiteMetadata();
+  const metaImage = socialImage != null ? socialImage : author1.photo;
   const metaImageUrl = url + withPrefix(metaImage);
 
   return (
