@@ -22,6 +22,14 @@ module.exports = {
     {
       label: 'Contact',
       path: '/pages/contacts'
+    },
+    {
+      label: '2401',
+      path: '/category/2401'
+    },
+    {
+      label: '2402',
+      path: '/category/2402'
     }
   ],
   author1: {
